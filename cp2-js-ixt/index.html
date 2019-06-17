@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- 
+  Ivan Tan
+  CSE 154 AI
+  April 20, 2019
+  Creative Project 2
+
+  This is the index.html for Creative Project 2.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Planner</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <main>
+      <section id="editor">
+        <h1>Planner</h1>
+        <p>A tool that helps schedule and plan your day!</p>
+        <button id="toggle-button">Toggle Colors</button>
+        <form>
+          <label>Title</label>
+          <input id="event-title" type="text" placeholder="Enter a title" required>
+          <label>Description</label>
+          <textarea id="event-description" placeholder="Enter a description" required></textarea>
+          <button id="add-event-button">Add</button>
+        </form>
+        <p>Total Items: <span id="count">0</span></p>
+      </section>
+      <section id="agenda">
+        <ul>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

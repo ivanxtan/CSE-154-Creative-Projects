@@ -1,0 +1,99 @@
+/* 
+  Ivan Tan
+  CSE 154 AI
+  Creative Project 3
+  May 1st, 2019
+
+  This is the styles.css file for Creative Project 3.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body, input, button {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0px;
+  font-size: 1em;
+  background-image: linear-gradient(45deg,#00537E 0%,#3AA17E 100%);
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+h1, h2 {
+  background-color: #2F4F4F;
+  color: white;
+  padding: 2.5%;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3, p {
+  font-size: 1.25em;
+}
+
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #5386E4;
+}
+
+span {
+  background-color: #2F4F4F;
+  color: white;
+  padding: 1px 2.5px;
+}
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1% 2%;
+}
+
+main {
+  width: 75vw;
+  max-width: 800px;
+  max-height: 75vh;
+  background-color: #CAF7E2;
+  border-radius: 10px;
+  overflow-y: auto;
+}
+
+main > section {
+  display: none;
+}
+
+main > section.active {
+  display: block;
+}
+
+section {
+  margin-bottom: 2.5%;
+}
+
+footer p {
+  font-size: 1em;
+}
+
+#introduction p, #country-info p {
+  margin: 5%;
+}

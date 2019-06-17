@@ -1,0 +1,82 @@
+/*
+  Ivan Tan
+  CSE 154 AI
+  Creative Project 4
+  May 17, 2019
+
+  This is the styles.css file for Creative Project 4.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body, main, li {
+  display: flex;
+}
+
+body, main {
+  flex-direction: column;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  background-image: linear-gradient(45deg,#00537E 0%,#3AA17E 100%);
+}
+
+main {
+  justify-content: space-evenly;
+  width: 75vw;
+  max-height: 75vh;
+  background-color: #CAF7E2;
+  border-radius: 10px;
+}
+
+h1, h2 {
+  padding: 2.5%;
+  margin: 0px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+p {
+  font-size: 1.25em;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  justify-content: space-between;
+}
+
+button {
+  margin: 25px 25px;
+}
+
+#items {
+  overflow-y: auto;
+}
+
+#details {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}

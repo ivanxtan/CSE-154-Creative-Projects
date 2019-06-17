@@ -1,0 +1,164 @@
+/*
+  Ivan Tan
+  CSE 154 AI
+  Creative Project 5
+  May 30, 2019
+
+  This is the styles.css file for Creative Project 5.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body, button, textarea {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow: auto;
+  font-size: 1em;
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+p {
+  font-size: 1.25em;
+  margin: 5px 0px;
+}
+
+header {
+  background-color: #D7FDEC;
+  padding: 50px;
+}
+
+main, article, nav, form, #create, #posts div {
+  display: flex;
+}
+
+article, form, #posts div, #create {
+  flex-direction: column;
+}
+
+article, nav, #create {
+  justify-content: center;
+}
+
+article, #posts div {
+  align-items: center;
+}
+
+main {
+  flex-direction: column-reverse;
+}
+
+article {
+  margin: 25px;
+  width: 75%;
+}
+
+article:first-child {
+  margin: 0px 25px 25px;
+}
+
+article button {
+  margin: 15px auto 0px;
+}
+
+button, section {
+  border-radius: 5px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 10px 30px;
+  background-color: #3AA17E;
+  color: #FFFFFF;
+  margin: 25px;
+}
+
+button:hover {
+  box-shadow: 2px 2px #00537E;
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+form {
+  padding: 0px 30px;
+}
+
+textarea {
+  resize: none;
+  outline-color: #3AA17E;
+  font-size: 1.25em;
+}
+
+.boost {
+  background-color: #00537E;
+  color: #FFFFFF;
+  padding: 2.5px 5px;
+  font-weight: bold;
+}
+
+.hidden, #create.hidden {
+  display: none;
+}
+
+#posts, #create {
+  background-color: #A9FBD7;
+}
+
+#posts {
+  margin: 0px 25px 25px;
+}
+
+#create {
+  margin: 25px;
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  header {
+    padding: 5vh;
+  }
+
+  #posts, #create {
+    height: 70vh;
+    overflow: auto;
+  }
+
+  #posts {
+    flex: 3;
+    margin: 25px;
+  }
+
+  #posts div {
+    flex-wrap: wrap;
+  }
+
+  #create {
+    flex: 1;
+  }
+}

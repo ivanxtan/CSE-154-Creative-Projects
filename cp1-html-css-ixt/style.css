@@ -1,0 +1,47 @@
+/*
+Ivan Tan
+CSE 154 AI
+April 6, 2019
+Creative Project 1
+
+This is the style.css file that the pages for my Creative Project 1 uses.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  background-color: #CAF7E2;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: auto; 
+  margin-right: auto;
+  width: 80%;
+}
+
+header, section {
+  background-color: #FFFFFF;
+  box-shadow: 3px 3px 3px #00537E;
+  padding: 25px;
+  margin: 25px 0px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+  color: #00537E;
+}
+
+h4, h5 {
+  font-style: italic;
+  color: #4A4A4A;
+}
+
+a {
+  color: #5386E4;
+}
+
+blockquote p {
+  font-style: italic;
+}

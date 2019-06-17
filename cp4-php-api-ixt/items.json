@@ -1,0 +1,48 @@
+{
+  "items": [
+    {
+      "name": "Bread",
+      "description": "A food made from flour and water."
+    },
+    {
+      "name": "Computer",
+      "description": "An electronic device."
+    },
+    {
+      "name": "Apple",
+      "description": "A red tasty fruit! Also a very well known tech company."
+    },
+    {
+      "name": "Tree",
+      "description": "A plant with a trunk, branches, and leaves."
+    },
+    {
+      "name": "Blueberry",
+      "description": "A fruit which is mostly known for its blue color."
+    },
+    {
+      "name": "Car",
+      "description": "A vehicle usually with four wheels."
+    },
+    {
+      "name": "Rose",
+      "description": "A nice flower."
+    },
+    {
+      "name": "Steak",
+      "description": "A nice delicious type of meat."
+    },
+    {
+      "name": "Chicken",
+      "description": "An animal known for laying eggs."
+    },
+    {
+      "name": "Cake",
+      "description": "A nice sweet and delicious treat!"
+    },
+    {
+      "name": "Orange",
+      "description": "A fruit that is the color orange. Also the name of a color."
+    }
+  ]
+}

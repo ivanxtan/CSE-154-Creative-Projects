@@ -1,0 +1,115 @@
+/* 
+  Ivan Tan
+  CSE 154 AI
+  April 20, 2019
+  Creative Project 2
+
+  This is the style.css that styles the pages (index.html) for Creative Project 2.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body, input, textarea, button {
+  font-family: 'Raleway', sans-serif;
+}
+
+body, main, #editor, #editor form {
+  display: flex;
+}
+
+body {
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0px;
+  font-size: 1em;
+  background-image: linear-gradient(45deg,#00537E 0%,#3AA17E 100%);
+}
+
+h1, #editor p {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  display: inline;
+  font-size: 1.75em;
+}
+
+ul, main, #editor form {
+  width: 90%;
+}
+
+ul {
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+}
+
+li {
+  margin-top: 50px;
+}
+
+li:first-child {
+  margin-top: 0px;
+}
+
+main > section, #editor input, #editor textarea {
+  padding: 3%;
+}
+
+main, #editor {
+  justify-content: center;
+}
+
+#editor, #editor form {
+  flex-direction: column;
+}
+
+#editor {
+  align-items: center;
+  color: white;
+  background-color: #2F4F4F;
+  flex: 1;
+}
+
+#editor.toggled-color {
+  color: black;
+  background-color: #CAF7E2;
+}
+
+#editor form, #editor label {
+  margin-top: 1em;
+}
+
+#editor label:first-child {
+  margin-top: 0px;
+}
+
+#editor textarea {
+  height: 10vh;
+}
+
+#agenda {
+  max-height: 75vh;
+  color: black;
+  background-color: #CAF7E2;
+  word-wrap: break-word;
+  overflow-y: scroll;
+  flex: 2;
+}
+
+#agenda.toggled-color {
+  color: white;
+  background-color: #2F4F4F
+}
+
+#agenda input[type="checkbox"] {
+  height: 30px;
+  width: 30px;
+  float: right;
+}

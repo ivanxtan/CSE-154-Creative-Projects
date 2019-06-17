@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+  Ivan Tan
+  CSE 154 AI
+  Creative Project 5
+  May 30, 2019
+
+  This is the index.html file for Creative Project 5.
+-->
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BOOST!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Share something and <span class="boost">BOOST!</span></h1>
+      <p>Create a post or <span class="boost">BOOST!</span> another one to the top!</p>
+    </header>
+    <main>
+      <section id="posts">
+        <h2>Posts</h2>
+        <div></div>
+        <nav>
+          <button id="prev" class="hidden"><i class="fas fa-chevron-left"></i> Previous</button>
+          <button id="next" class="hidden">Next <i class="fas fa-chevron-right"></i></button>
+        </nav>
+      </section>
+      <section id="create">
+        <h2>Create a Post</h2>
+        <form>
+          <textarea id="content" placeholder="Enter what you want to share..." required rows="5"></textarea>
+          <button id="add">Add</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
